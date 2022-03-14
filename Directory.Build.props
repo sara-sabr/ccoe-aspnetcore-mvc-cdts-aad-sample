@@ -1,0 +1,6 @@
+<Project>
+    <PropertyGroup>
+	    <!-- Goc.Webtemplate has a bug that throws that warning.  -->
+	    <NoWarn>0436</NoWarn>
+	</PropertyGroup>
+</Project>
