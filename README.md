@@ -3,7 +3,7 @@ Sample repository to get started up with AAD using ASP.NET Core 3.1 MVC, Microso
 
 It is meant to help developers (originally from ESDC) new to AAD, Graph API, and CDTS to have the bare minimum to start their project using these technologies.
 
-# Get started
+# Getting started
 ## Azure Active Directory
 The first step is to create the AAD application that the web server will use to authenticate users.\
 You will need the Azure role **Application Developer**. At ESDC, you can request it via NSD.
