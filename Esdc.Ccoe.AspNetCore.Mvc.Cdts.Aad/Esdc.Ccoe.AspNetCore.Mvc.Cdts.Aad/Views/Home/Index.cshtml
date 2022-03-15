@@ -1,0 +1,16 @@
+﻿@using System.Security.Claims
+
+<h1 property="name" id="wb-cont">Welcome</h1>
+@if (User.Identity.IsAuthenticated) {
+    <ul>
+        <li>@User.Claims.SingleOrDefault(c => c.Type == "name")?.Value</li>
+        <li>@User.Claims.SingleOrDefault(c => c.Type == ClaimTypes.Email)?.Value</li>
+    </ul>
+    <div class="row row-btn">
+        <div class="col-sm-2">
+            <button class="btn btn-primary btn-block" onclick="location.href='@Url.Action("Index", "Private")'">Go to private page!</button>
+        </div>
+    </div>
+} else {
+    <span class="navbar-text text-dark">Hello Anonymous!</span>
+}
