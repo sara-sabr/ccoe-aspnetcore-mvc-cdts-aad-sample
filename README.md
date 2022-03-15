@@ -53,3 +53,4 @@ Also, it is more secure as the application only request an access token for spec
 [.NET MSAL (Microsoft.Identity.Web package) Wiki](https://github.com/AzureAD/microsoft-identity-web/wiki/web-apps)\
 [AAD Authorization Code Flow](https://docs.microsoft.com/en-gb/azure/active-directory/develop/v2-oauth2-auth-code-flow)\
 [AAD Incremental Consent](https://github.com/AzureAD/microsoft-identity-web/wiki/Managing-incremental-consent-and-conditional-access#in-mvc-controllers)
+t
