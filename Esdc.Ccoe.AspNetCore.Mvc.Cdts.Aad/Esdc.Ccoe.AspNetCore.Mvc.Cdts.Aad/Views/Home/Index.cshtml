@@ -1,9 +1,16 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@using System.Security.Claims
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <a class="nav-link text-dark" asp-area="AzureAD" asp-controller="Account" asp-action="SignIn">Sign in</a>
-</div>
+<h1 property="name" id="wb-cont">Welcome</h1>
+@if (User.Identity.IsAuthenticated) {
+    <ul>
+        <li>@User.Claims.SingleOrDefault(c => c.Type == "name")?.Value</li>
+        <li>@User.Claims.SingleOrDefault(c => c.Type == ClaimTypes.Email)?.Value</li>
+    </ul>
+    <div class="row row-btn">
+        <div class="col-sm-2">
+            <button class="btn btn-primary btn-block" onclick="location.href='@Url.Action("Index", "Private")'">Go to private page!</button>
+        </div>
+    </div>
+} else {
+    <span class="navbar-text text-dark">Hello Anonymous!</span>
+}
