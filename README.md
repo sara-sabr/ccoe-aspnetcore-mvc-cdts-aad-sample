@@ -8,6 +8,10 @@ It is meant to help developers (originally from ESDC) new to AAD, Graph API, and
 The first step is to create the AAD application that the web server will use to authenticate users.\
 You will need the Azure role **Application Developer**. At ESDC, you can request it via NSD.
 
+### NSD ticket (for ESDC)
+1. Click [here](https://014gc.sharepoint.com/sites/OI-CO/SitePages/FAQs/Azure-AAD-How-do-I-request-an-AAD-Admin-Role.aspx) and follow the instructions.
+
+
 1. Once you have the role, go to [Privileged Identity Management (PIM)](https://portal.azure.com/#blade/Microsoft_Azure_PIMCommon/CommonMenuBlade/quickStart) in Azure Portal.
 1. Go to "My roles" and activate the **Application Developer** role.
 1. This will give you access to Azure Active Directory in the Azure Portal.
