@@ -3,6 +3,8 @@ Here is a sample repository to get started with AAD using ASP.NET Core 3.1 MVC, 
 
 It is meant to help developers (originally from ESDC) new to AAD, Graph API, and CDTS to have the minimum knowledge needed to start their project using these technologies.
 
+**Note:** This project uses ASP.NET Core 3.1 because the CDTS template does not support ASP.NET 6 at the moment.
+
 # Getting Started
 ## Azure Active Directory
 The first step is to create the AAD application that the web server will use to authenticate users.\
