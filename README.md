@@ -30,7 +30,7 @@ The following steps are designed you to clone the repo and start using the code 
     **Note:** If you need people from outside your organization to be able to sign-in, you need to choose "Multitenant" mode.
     - In the redirect URI, select "Web" and enter "https://localhost:{port}/signin-oidc. If you are using Visual Studio, the port is "44325" if you use the code of this repo as is.
 
-    **Note:** This is for development purpose. You can also put the development domain, if any. You can modify/add more URI later on in the Authentication panel of your AAD app.
+    **Note:** This is for development purpose and for the purpose of this reference sample code. You can also put the development domain, if any. You can modify/add more URI later on in the Authentication panel of your AAD app.
 
     **Note:** In a production environment, 'localhost' should not be used in the possible redirect URIs, since it can open security breaches.
 1. Click 'Register'.
