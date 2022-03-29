@@ -5,6 +5,8 @@ It is meant to help developers (originally from ESDC) new to AAD, Graph API, and
 
 **Note:** This project uses ASP.NET Core 3.1 because the CDTS template does not support ASP.NET 6 at the moment.
 
+**Note:** Our colleagues from Transport Canada did something similar. We suggest you go see their repository too! Follow this [link](https://github.com/tc-ca/TC3oE-Templates/tree/main/DotNet6MVC)!
+
 # Getting Started
 ## Azure Active Directory
 The first step is to create the AAD application that the web server will use to authenticate users.\
